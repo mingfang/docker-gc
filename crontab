@@ -1,0 +1,4 @@
+PATH=/bin:/sbin:/usr/bin:/usr/local/bin
+
+0 2 * * * /gc.sh >> /var/log/cron.log 2>&1
+#
